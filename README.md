@@ -1,6 +1,34 @@
 # Go Web Minimum-Viable-Product (MVP)
 This is a template repository for my web applications built with Go.
 
+# Project Structure
+
+This repository contains a Go-based web application. Below is an overview of the directory structure and the purpose of each file:
+
+.
+├── cmd
+│   └── web
+│       ├── context.go      # Contains custom context types for passing data between middlewares and handlers
+│       ├── funcs.go        # Contains template functions for use in HTML templates
+│       ├── handlers.go     # Contains HTTP handlers for handling incoming requests
+│       ├── helpers.go      # Contains helper functions for the web application
+│       ├── main.go         # Main entry point for the web application
+│       ├── middleware.go   # Contains middleware functions for use in the web application
+│       ├── routes.go       # Contains route definitions for the web application
+│       └── templates.go    # Contains the setup for loading and parsing HTML templates
+├── internal
+├── pkg
+└── ui
+    ├── efs.go              # Contains the embedded file system setup for serving static files and templates
+    ├── html
+    │   ├── layouts
+    │   │   └── main.html   # Main layout for the web application
+    │   ├── pages
+    │   │   └── index.html  # Template for the homepage of the web application
+    │   └── partials
+    │       └── nav.html    # Template for the navigation bar
+    └── static              # Contains static files such as CSS, JavaScript, and images
+
 # cmd
 
 This directory contains the entry point for the web application.
