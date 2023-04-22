@@ -5,6 +5,7 @@ This is a template repository for my web applications built with Go.
 
 This repository contains a Go-based web application. Below is an overview of the directory structure and the purpose of each file:
 
+<pre>
 .
 ├── cmd
 │   └── web
@@ -28,6 +29,7 @@ This repository contains a Go-based web application. Below is an overview of the
     │   └── partials
     │       └── nav.html    # Template for the navigation bar
     └── static              # Contains static files such as CSS, JavaScript, and images
+</pre>
 
 # cmd
 
